@@ -7,29 +7,18 @@ def calc_resistencia(re1, re2, re3, re4):
     return resistencia
 
 def calc_tabuada(num_tabuada):
-    for i in 11
-        print("1x", num_tabuada, "=", num_tabuada*)   
+    i = 1
+    while i < 11:
+        print("1x", num_tabuada, "=", num_tabuada*i) 
+        i += 1
 
 print("********* INÍCIO *********")
 escolha = int(input("Selecione o exercício: \n 1-Produto e desconto \n 2-Resistencia de um circuito \n 3-Tabuada \n 4-Inglês \n\n"))
 if escolha == 1:
     print("********* EXERCICIO 01 *********")
-    nomeProd = str(input("Digite o nome do produto: "))
-    valorProd = float(input("Digite o valor do produto: "))
-        
-    if valorProd >= 50 and valorProd < 200:
-        res = (valorProd * 0.05) + valorProd
-    elif valorProd >= 200 and valorProd < 500:
-        res = (valorProd * 0.06) + valorProd
-    elif valorProd >= 500 and valorProd < 1000:
-        res = (valorProd * 0.07) + valorProd
-    elif valorProd >= 1000:
-        res = (valorProd * 0.08) + valorProd        
-    else:
-        print("Nenhum desconto!")
-    print (nomeProd)
-    print (valorProd)
-    print(res)
+
+    print("\n ********* RESULTADO *********")
+    
 
 
 
